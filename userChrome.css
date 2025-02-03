@@ -1,3 +1,25 @@
+/*
+STATUS [△]
+----------
+ZEN MODS
+- Better Tab Indicators
+- Bigger Mute Button
+- Bottom Essentials
+- Disable Status Bar
+- No Search Shortcut Icons
+- Only Close On Hover
+- Super URL Bar
+    - Always Centered
+    - Hides all the icons/ buttons on the left side
+
+TOOLBAR
+Extension Button, Flexible Space, URL Bar, Overflow Menu, More
+
+ADVANCED CONFIG (ONLY ESSENTIALS)
+- zen.workspaces.show-workspace-indicator false
+- devtools.debugger.remote-enabled true
+*/
+
 .titlebar-buttonbox-container {
     padding-right: 20px !important;
 }
