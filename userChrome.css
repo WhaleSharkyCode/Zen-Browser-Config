@@ -38,29 +38,30 @@ ADVANCED CONFIG (ONLY ESSENTIALS)
 }
 
 #urlbar {
-    border-radius: 20px !important;
+    border-radius: 15px !important;
 }
 
 #urlbar:not([open]) > #urlbar-background {
-    border-radius: 20px !important;
+    border-radius: 15px !important;
+}
+
+#urlbar[open] > #urlbar-background {
+    border-radius: 15px !important;
 }
 
 :root[zen-window-buttons-reversed="true"] .titlebar-buttonbox-container {
     display: none !important;
 }
 
-
-#back-button, #forward-button /*, #unified-extensions-button */ {
+/* #back-button, #forward-button, #unified-extensions-button {
     display: none !important;
-}
+} */
 
 /* #zen-workspaces-button[as-button="true"] {
     display: none !important;
 } */
 
-/* #urlbar[open] > #urlbar-background {
-    border-radius: 20px !important;
-} */
+
 
 .urlbar-input-container {
     padding-right: 10px !important;
@@ -69,7 +70,7 @@ ADVANCED CONFIG (ONLY ESSENTIALS)
 
 :root {
     --zen-toolbar-height: 45px !important;
-    --toolbarbutton-border-radius: 3px !important;
+    /* --zen-border-radius: 14px !important; */
 }
 
 :root[zen-compact-mode="true"]:not([customizing]):not([inDOMFullscreen="true"]) {
